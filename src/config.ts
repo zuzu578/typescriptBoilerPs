@@ -23,20 +23,11 @@ export default {
   KEY: {
     PASSWORD_SECRET: process.env.PASSWORD_SECRET || "",
   },
-  AWS: {
-    REGION: process.env.AWS_REGION || "",
-    ACCESS_KEY_ID: process.env.AWS_ACCESS_KEY_ID || "",
-    SECRET_ACCESS_KEY: process.env.AWS_SECRET_ACCESS_KEY || "",
-    BUTKET: process.env.AWS_S3_BUCKET || "",
-  },
+ 
 
   morganFormat:
     ":remote-addr - :remote-user :method :url HTTP/:http-version :status - :response-time ms :res[content-length] :user-agent",
   NODE_ENV: process.env.NODE_ENV || "",
 
-  SWAGGER: {
-    description: process.env.SWAGGER_DESCRIPTION || "dscription",
-    title: process.env.SWAGGER_TITLE || "title",
-    version: process.env.SWAGGER_VERSION || "1.0.0",
-  },
+ 
 };
