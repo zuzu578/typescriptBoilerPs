@@ -14,3 +14,9 @@ DB_PASSWORD=123qwe
 DB_DATABASE=mysql
 MYSQL_CONNECTION_POOL_MAX=5
 MYSQL_CONNECTION_POOL_MIN=0
+
+
+
+# 구조 
+
+router -> controller -> service -> models
